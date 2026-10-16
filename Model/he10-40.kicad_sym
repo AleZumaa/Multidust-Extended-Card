@@ -1,0 +1,804 @@
+(kicad_symbol_lib
+	(version 20251024)
+	(generator "kicad_symbol_editor")
+	(generator_version "10.0")
+	(symbol "he10-40"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "HE10-40-1"
+			(at 0 27.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.778 1.778)
+				)
+			)
+		)
+		(property "Value" "CONN-1"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "he10-40_0_1"
+			(rectangle
+				(start -1.27 25.4)
+				(end 1.27 -25.4)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "he10-40_1_1"
+			(pin passive inverted
+				(at -8.89 24.13 0)
+				(length 7.62)
+				(name "0"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "0"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 24.13 180)
+				(length 7.62)
+				(name "1"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 21.59 0)
+				(length 7.62)
+				(name "2"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 21.59 180)
+				(length 7.62)
+				(name "3"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 19.05 0)
+				(length 7.62)
+				(name "4"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 19.05 180)
+				(length 7.62)
+				(name "5"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 16.51 0)
+				(length 7.62)
+				(name "6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 16.51 180)
+				(length 7.62)
+				(name "7"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 13.97 0)
+				(length 7.62)
+				(name "8"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 13.97 180)
+				(length 7.62)
+				(name "9"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 11.43 0)
+				(length 7.62)
+				(name "10"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 11.43 180)
+				(length 7.62)
+				(name "11"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 8.89 0)
+				(length 7.62)
+				(name "12"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 8.89 180)
+				(length 7.62)
+				(name "13"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 6.35 0)
+				(length 7.62)
+				(name "14"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 6.35 180)
+				(length 7.62)
+				(name "15"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 3.81 0)
+				(length 7.62)
+				(name "16"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 3.81 180)
+				(length 7.62)
+				(name "17"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "17"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 1.27 0)
+				(length 7.62)
+				(name "18"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "18"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 1.27 180)
+				(length 7.62)
+				(name "19"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 -1.27 0)
+				(length 7.62)
+				(name "20"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "20"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 -1.27 180)
+				(length 7.62)
+				(name "21"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "21"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 -3.81 0)
+				(length 7.62)
+				(name "22"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "22"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 -3.81 180)
+				(length 7.62)
+				(name "23"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 -6.35 0)
+				(length 7.62)
+				(name "24"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 -6.35 180)
+				(length 7.62)
+				(name "25"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 -8.89 0)
+				(length 7.62)
+				(name "26"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 -8.89 180)
+				(length 7.62)
+				(name "27"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 -11.43 0)
+				(length 7.62)
+				(name "28"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "28"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 -11.43 180)
+				(length 7.62)
+				(name "29"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "29"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 -13.97 0)
+				(length 7.62)
+				(name "30"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 -13.97 180)
+				(length 7.62)
+				(name "31"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 -16.51 0)
+				(length 7.62)
+				(name "32"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 -16.51 180)
+				(length 7.62)
+				(name "33"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 -19.05 0)
+				(length 7.62)
+				(name "34"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 -19.05 180)
+				(length 7.62)
+				(name "35"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "35"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 -21.59 0)
+				(length 7.62)
+				(name "36"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "36"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 -21.59 180)
+				(length 7.62)
+				(name "37"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "37"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at -8.89 -24.13 0)
+				(length 7.62)
+				(name "38"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "38"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+			(pin passive inverted
+				(at 8.89 -24.13 180)
+				(length 7.62)
+				(name "39"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+				(number "39"
+					(effects
+						(font
+							(size 1.524 1.524)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+)
