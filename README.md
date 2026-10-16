@@ -6,6 +6,15 @@ Placa de circuito impreso (PCB) diseñada como interfaz de interconexión y depu
 
 ---
 
+## 🛠️ Herramientas de Diseño (EDA)
+
+* **Software:** [KiCad EDA](https://www.kicad.org/)
+* **Versión:** `v10.0.1`
+
+> ℹ️ **Nota de compatibilidad:** El esquema y el layout fueron diseñados con **KiCad 10.0.1**. Para abrir y editar los archivos de proyecto sin problemas de migración de footprints o bibliotecas de símbolos, se recomienda utilizar KiCad 10.0.1 o superior.
+
+---
+
 ## 📋 Características Principales
 
 - **Conectores Principales:**
@@ -28,6 +37,7 @@ Placa de circuito impreso (PCB) diseñada como interfaz de interconexión y depu
 | Parámetro | Valor / Descripción |
 | :--- | :--- |
 | **Tipo de Placa** | Breakout / Adapter / Test Board |
+| **Software EDA** | **KiCad v10.0.1** |
 | **Capas** | 2 capas (Top / Bottom) |
 | **Material sugerido** | FR-4 estándar (1.6 mm espesor) |
 | **Acabado sugerido** | HASL Lead-Free o ENIG (recomendado para pads de prueba) |
@@ -64,28 +74,14 @@ Placa de circuito impreso (PCB) diseñada como interfaz de interconexión y depu
 
 ```text
 ├── Hardware/
-│   ├── Schematics/         # Diagramas esquemáticos (KiCad / Altium / Eagle)
-│   ├── PCB/                # Archivos de diseño y layout de la placa
+│   ├── Schematics/         # Esquemáticos en formato KiCad v10.0.1 (.kicad_sch)
+│   ├── PCB/                # Archivo de PCB KiCad v10.0.1 (.kicad_pcb)
 │   └── Gerbers/            # Archivos de fabricación (Gerber RS-274X, Drill files)
 ├── Docs/
 │   ├── Pinout_Mapping.csv  # Mapeo detallado señal por señal
 │   └── Dimensions.pdf      # Plano mecánico acotado
 └── README.md
 ```
-
----
-
-## 🚀 Instrucciones de Fabricación
-
-1. Exportar la carpeta `Gerbers/` generada por tu software de diseño electrónico.
-2. Comprimir los archivos en formato `.zip`.
-3. Subir el archivo al fabricante de PCB de preferencia (JLCPCB, PCBWay, etc.).
-4. Parámetros recomendados:
-   - **Layers:** 2
-   - **Thickness:** 1.6 mm
-   - **Surface Finish:** HASL Lead-Free o ENIG
-   - **Solder Mask:** Color a elección (Azul, Verde, Negro)
-   - **Silkscreen:** Blanco (para máxima legibilidad de las marcas de los pines)
 
 ---
 
