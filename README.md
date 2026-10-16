@@ -1,6 +1,6 @@
 # Multidust-Extended-Card
-Test extension board.
-# Placa Extensora / Breakout de Pruebas (Test Adapter Board)
+
+## Placa Extensora / Breakout de Pruebas (Test Adapter Board)
 
 Placa de circuito impreso (PCB) diseñada como interfaz de interconexión y depuración para medición, ruteo y diagnóstico de señales. Permite derivar conectores multicable de cinta plana (IDC / HE10) hacia puntos de prueba o pines header individuales (J1 a J130), facilitando el conexionado con osciloscopios, analizadores lógicos, multímetros o protoboards.
 
